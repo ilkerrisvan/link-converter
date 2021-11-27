@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  trendyol-link-converter:
+    container_name: trendyol-link-converter
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - CONNECTION_STRING=postgresql://doadmin:tL5BUo6E3ZocxFwc@db-postgresql-fra1-91317-do-user-7772178-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require
+      - SERV_PORT=:8000
