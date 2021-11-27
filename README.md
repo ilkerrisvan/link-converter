@@ -1,4 +1,5 @@
-# TrendyolCase-IlkerRisvan
+# Link converter 
+
 
 Link converter service converts URLs to deeplinks or deeplinks to URLs. 
 
